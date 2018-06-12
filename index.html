@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+   <!--META TAGS-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <meta name="survey form" content="Harry Potter Survey"/>
+
+    <title>Harry Potter Fan Survey</title>
+
+    <!-- Bootstrap, Fonts, CSS -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <!--Icons-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Abel|Just+Another+Hand|Peddana|Song+Myung" rel="stylesheet">
+
+    </head>
+    <body>
+    <div class="container-fluid">
+
+
+    <section class="header">
+      <div class="row text-center">
+         <div class="col-md-12 text-center">
+           <br>
+           <p id="title" class="title">Harry Potter</p>
+           <p id="description" class="sub-title">Fan Survey</p>
+         </div>
+      </div>
+    </section>
+
+    <section class="survey">
+      <div class="row">
+         <div class="col-md-12 text-center">
+           <form id="survey-form">
+            <label id="name-label">Your Name: </label>
+            <br>
+            <input id="name" name="user-name" type="text" placeholder="Enter Your Name">
+            <br>
+            <label id="email-label">Your Email:</label>
+            <br>
+            <input id="email" name="user-email" type="email" placeholder="Enter Your Email">
+            <br>
+            <label id="number-label">Your Age:</label>
+            <br>
+            <input id="number" name="user-age" type="number" min="1" max="125" placeholder="Enter Your Age">
+            <br>
+            <label id="house-name">Your House:</label>
+            <br>
+            <select id="dropdown" name="house">
+             <option class="house-select" value="gryffindor">Gryffindor</option>
+             <option class="house-select" value="ravenclaw">Ravenclaw</option>
+             <option class="house-select" value="hufflepuff">Hufflepuff</option>
+             <option class="house-select" value="slytherin">Slytherin</option>
+           </select>
+           <br>
+           <form>
+           <label id="activity">Your After School Activity Choice:</label>
+           <br>
+            <input type="radio" class="radio-option" name="quidditch" value="1"> Quidditch
+            <input type="radio" class="radio-option" name="spew" value="2"> SPEW
+            <input type="radio" class="radio-option" name="da" value="3"> Dumbledore's Army <br>
+            </form>
+            <label id="book">Your Favorite Book:</label>
+            <br>
+            <input type="checkbox" name="book1" value="1"> Sorcerer's Stone<br>
+            <input type="checkbox" name="book2" value="2"> Chamber of Secrets<br>
+            <input type="checkbox" name="book3" value="3"> Prisoner of Azkaban<br>
+            <input type="checkbox" name="book4" value="4"> Goblet of Fire<br>
+            <input type="checkbox" name="book5" value="5"> Order of the Pheonix<br>
+            <input type="checkbox" name="book6" value="6"> Half-Blood Prince<br>
+            <input type="checkbox" name="book7" value="7"> Deathly Hallows<br>
+            <label id="comments">Your Favorite Fan Theory: </label>
+            <br>
+            <input id="user-comments" name="user-comments" type="text" placeholder="Enter Your Favorite Fan Theory">
+            <br>
+            <br>
+            <button id="submit" type="submit" class="btn btn-light enter">Submit</button>
+         </form>
+         </div>
+
+
+
+     </div>
+    </section>
+
+    <section id="footer">
+        <div class="row copyright">
+         <br>
+       <div class="col-md-12">
+        <br>
+        <br>
+         <p class="copyright text-center"><strong>Made with a <span class="white"> Wand </span> by Faith H. Wallace, Ph.D., &copy;  2018<br>Follow Me <i class="fab fa-twitter"></i> </strong><a class="twitter-link" href="https://twitter.com/fwallacephd" data-show-count="false">@fwallacephd</a></p>
+       </div>
+      <br>
+    </div>
+    </section>
+   </div>
+
+    <script src="jquery.js"> </script>
+    <script src="main.js"></script>
+    </body>
+</html>
